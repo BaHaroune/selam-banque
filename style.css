@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #004080;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+header nav a.active {
+    text-decoration: underline;
+}
+
+.hero {
+    background: url('banque.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero .btn {
+    background: #ffcc00;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background: white;
+}
+
+.features div {
+    width: 30%;
+    text-align: center;
+}
+
+footer {
+    background: #004080;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
